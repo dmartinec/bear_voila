@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# Enable Voila extension
-jupyter server extension enable --sys-prefix voila
-
-# Start Jupyter notebook server
-jupyter notebook
