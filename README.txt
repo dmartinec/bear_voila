@@ -2,6 +2,8 @@ Launched at
 
 	https://mybinder.org/v2/gh/mwatney2/bear_voila/HEAD?urlpath=%2Fvoila%2Frender%2Fapp_ipywidgets.ipynb
 
+	To launch, fill https://mybinder.org/ as in mybinder.png and click 'launch'
+
 
 To launch locally, run in terminal:
 	1. jupyter server extension enable --sys-prefix voila
