@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Increase spawn timeout to 1 minute
+export JUPYTER_SPAWN_TIMEOUT=60
+
 # Start Jupyter notebook server
 jupyter notebook &
 
