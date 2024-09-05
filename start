@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Increase spawn timeout to 1 minute
-export JUPYTER_SPAWN_TIMEOUT=60
-
 # Start Jupyter notebook server
 jupyter notebook &
+
+# Wait for 2 minutes to allow the server to start up
+sleep 120
 
 # Enable Voila extension
 jupyter server extension enable --sys-prefix voila
