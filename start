@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Start Jupyter notebook server
+jupyter notebook &
+
+# Enable Voila extension
+jupyter server extension enable --sys-prefix voila
+
+# Keep the container running
+tail -f /dev/null
