@@ -9,4 +9,4 @@ To launch locally, run in terminal:
 	1. jupyter server extension enable --sys-prefix voila
 	2. jupyter notebook
 	3.     ... open there app_ipywidgets.ipynb and
-    4.     ... replace "notebooks" in your browser's URL with "voila/render"
+	4.     ... replace "notebooks" in your browser's URL with "voila/render"
